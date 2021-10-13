@@ -1,17 +1,17 @@
 # oledb.js
 
-[![npm version](https://img.shields.io/badge/npm-v1.6.0-blue.svg)](https://www.npmjs.com/package/oledb)
+[![npm version](https://img.shields.io/badge/npm-v1.6.2-blue.svg)](https://www.npmjs.com/package/oledb.js)
 [![license](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 [![tips](https://img.shields.io/badge/tips-bitcoin-brightgreen.svg)](https://www.coinbase.com/blahyourhamster)
 
-A small **promise based** module which uses [Edge-JS](https://github.com/agracio/edge-js) to connect and execute queries for a 
+A small **promise based** module which uses [Edge-JS-UP](https://github.com/SkeletonGamer/edge-js-up) to connect and execute queries for a 
 [OLE DB](https://en.wikipedia.org/wiki/OLE_DB), [ODBC](https://en.wikipedia.org/wiki/Open_Database_Connectivity) or [SQL](https://en.wikipedia.org/wiki/SQL) database.
 
 ## Example
 ```js
 const connectionString = '...';
 
-const oledb = require('oledb');
+const oledb = require('oledb.js');
 const db = oledb.oledbConnection(connectionString);
 
 let command = 'select * from account;';
@@ -54,7 +54,7 @@ The result will look like this:
 
 ## Installation
 ```
-npm install oledb --save
+npm install oledb.js --save
 ```
 
 This module is a proxy that uses **ADO.NET** to call .NET code and therefore requires the **.NET Framework** to be installed.
