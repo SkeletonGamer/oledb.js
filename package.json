@@ -1,6 +1,6 @@
 {
-  "name": "oledb",
-  "version": "1.6.0",
+  "name": "oledb.js",
+  "version": "1.6.1",
   "description": "Uses Edge.js to connect to an ADO.NET Databases.",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,13 @@
     "mock-require": "^2.0.2",
     "tap": "^10.1.1"
   },
+  "homepage": "https://github.com/SkeletonGamer/oledb.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mike-eason/oledb-edge"
+    "url": "https://github.com/SkeletonGamer/oledb.js"
+  },
+  "bugs": {
+    "url": "https://github.com/SkeletonGamer/oledb.js/issues"
   },
   "files": [
     "index.js",
