@@ -4,9 +4,9 @@ const mock = require('mock-require');
 const connectionString = 'mydatabase.dbc';
 
 /*
-    Mock edge.js so we can check the options passed in.
+    Mock edge.js UP so we can check the options passed in.
 */
-mock('edge-js', {
+mock('edge-js-up', {
     func(filePath) {
         return (options, callback) => {
             if (options.constring != connectionString)

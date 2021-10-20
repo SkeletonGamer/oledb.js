@@ -1,4 +1,4 @@
-const edge = require('edge-js');
+const edge = require('edge-js-up');
 const data = edge.func(__dirname + '/Data.cs');
 
 const COMMAND_TYPES = {
