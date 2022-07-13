@@ -1,6 +1,6 @@
 # oledb.js
 
-[![npm version](https://img.shields.io/badge/npm-v1.7.13-blue.svg)](https://www.npmjs.com/package/oledb.js)
+[![npm version](https://img.shields.io/badge/npm-v1.7.14-blue.svg)](https://www.npmjs.com/package/oledb.js)
 [![license](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 [![tips](https://img.shields.io/badge/tips-bitcoin-brightgreen.svg)](https://www.coinbase.com/blahyourhamster)
 
