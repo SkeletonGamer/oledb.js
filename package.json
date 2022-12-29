@@ -1,6 +1,6 @@
 {
   "name": "oledb.js",
-  "version": "1.8.1",
+  "version": "1.9.0",
   "description": "Uses Edge.js-UP to connect to an ADO.NET Databases.",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,11 @@
   "author": "Mike Eason",
   "license": "MIT",
   "dependencies": {
-    "edge-js-up": "18.4.3"
+    "edge-js-up": "19.3.0"
   },
   "devDependencies": {
-    "mock-require": "^2.0.2",
-    "tap": "^10.1.1"
+    "mock-require": "^3.0.3",
+    "tap": "^16.3.2"
   },
   "homepage": "https://github.com/SkeletonGamer/oledb.js",
   "repository": {
