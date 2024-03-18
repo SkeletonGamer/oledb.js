@@ -1,6 +1,6 @@
 {
   "name": "oledb.js",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "description": "Uses Edge.js-UP to connect to an ADO.NET Databases.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Mike Eason",
   "license": "MIT",
   "dependencies": {
-    "edge-js-up": "20.10.2"
+    "edge-js-up": "21.7.1"
   },
   "devDependencies": {
     "mock-require": "^3.0.3",
